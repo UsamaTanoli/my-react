@@ -19,7 +19,10 @@ function App() {
 
     }
   }
-
+  
+  function reset() {
+    setCount(1)
+  }
 
   return (
 
@@ -29,6 +32,9 @@ function App() {
       <br />
       <br />
       <button onClick={decrement}>decrease</button>
+      <br />
+      <br /> 
+      <button onClick={reset}>reset</button>
     </>
   )
 }
